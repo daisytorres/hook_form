@@ -1,8 +1,53 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+
 .App {
+  /* display: flex;
+  align-items: center; 
+  justify-content: center; */
+  margin-left: 25px;
+  margin-top: 25px;
+  padding-top: 30px;
   text-align: center;
+  background-color: rgb(255, 182, 193);
+  height: 450px;
+  width: 400px;
+  border: solid rgb(231, 84, 128) 15px;
 }
 
-.App-logo {
+h2 {
+  margin: 0;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+.input {
+  text-align: left;
+  margin-left: 10px;
+  padding: 5px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.display-form {
+  text-align: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: rgb(231, 84, 128);
+  color: white;
+}
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +80,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

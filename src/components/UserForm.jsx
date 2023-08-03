@@ -25,27 +25,28 @@ const UserForm = (props) => {
     return(
         <div>
             <form onSubmit={ createUser }>
-                <div>
+                <h2>Hook Form Assignment</h2>
+                <div className ="input">
                     <label>First Name: </label>
                     <input type="text" value={firstName} onChange={ (e) => setFirstName(e.target.value) } />
                 </div>
-                <div>
+                <div className ="input">
                     <label>Last Name: </label>
                     <input type="text" value={lastName} onChange={ (e) => setLastName(e.target.value) } />
                 </div>
-                <div>
+                <div className ="input" >
                     <label>Email: </label>
                     <input type="email" value={email} onChange={ (e) => setEmail(e.target.value) } />
                 </div>
-                <div>
+                <div className ="input">
                     <label>Password: </label>
                     <input type="password" value={password} onChange={ (e) => setPassword(e.target.value) } />
                 </div>
-                <div>
+                <div className ="input">
                     <label>Confirm Password: </label>
-                    <input type="password" value={confirmPassword} onChange={ (e) => setPassword(e.target.value) } />
+                    <input type="password" value={confirmPassword} onChange={ (e) => setConfirmPassword(e.target.value) } />
                 </div>
-                <input type="submit" value="Create User" />
+                <button className = "button">Submit</button>
             </form>
                 <Display firstName = {firstName} lastName = {lastName} email = {email} password = {password} confirmPassword = {confirmPassword} />
         </div>

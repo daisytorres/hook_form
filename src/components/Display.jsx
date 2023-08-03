@@ -4,7 +4,7 @@ const Display = (props) => {
     const {firstName, lastName, email, password, confirmPassword} = props
 
     return (
-        <div>
+        <div className = "display-form">
             <p>First Name: {firstName}</p>
             <p>Last Name: {lastName}</p>
             <p>Email: {email}</p>
